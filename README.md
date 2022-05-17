@@ -47,9 +47,4 @@ the HOG feature, there are 20 X 12 cells and 19 X 11 blocks in the detection win
 dimension of the HOG feature vector is 7,524.
 
 #### Results and Outputs
-<object data="./HumanDetection.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="http://yoursite.com/the.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
+To see outputs and results please check Human Detection.pdf
