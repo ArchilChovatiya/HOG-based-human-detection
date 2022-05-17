@@ -27,3 +27,23 @@ Normalize and round off the gradient magnitude to integers within the range [0, 
 locations where the templates go outside of the borders of the image, assign a value of 0 to both
 the gradient magnitude and gradient angle. Also, if both 𝐺𝐺𝑥𝑥 and 𝐺𝐺𝑦𝑦 are 0, assign a value of 0 to
 both gradient magnitude and gradient angle.
+\
+#### HOG feature
+Here we are using the unsigned representation and quantize the gradient angle into one of the 9 bins as shown in the
+table below. If the gradient angle is within the range [180, 360), simply subtract the angle by 180
+first. Use the following parameter values in your implementation: cell size = 8 x 8 pixels, block
+size = 16 x 16 pixels (or 2 x 2 cells), block overlap or step size = 8 pixels (or 1 cell.) Use L2
+norm for block normalization. Leave the histogram and final feature values as floating point
+numbers
+\
+![image](https://b2-ac9137.s3.amazonaws.com/462251-df4e-b2c0-8825-fd286b77c4a_Untitled2.png)
+\
+#### Training and test images:
+A set of 20 training images and a set of 10 test images in .bmp format
+will be provided. The training set contains 10 positive (human) and 10 negative (no human)
+samples and the test set contains 5 positive and 5 negative samples. All images are of size 160
+(height) X 96 (width). With the given image size and the parameters given above for computing
+the HOG feature, there are 20 X 12 cells and 19 X 11 blocks in the detection window. The
+dimension of the HOG feature vector is 7,524.
+
+[embed]http://example.com/file.pdf[/embed]
