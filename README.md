@@ -46,4 +46,6 @@ samples and the test set contains 5 positive and 5 negative samples. All images 
 the HOG feature, there are 20 X 12 cells and 19 X 11 blocks in the detection window. The
 dimension of the HOG feature vector is 7,524.
 
-[embed]http://example.com/file.pdf[/embed]
+#### Results and Outputs
+[embed]./Human Detection.pdf[/embed]
+
