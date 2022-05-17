@@ -37,7 +37,7 @@ norm for block normalization. Leave the histogram and final feature values as fl
 numbers
 \
 ![image](https://b2-ac9137.s3.amazonaws.com/462251-df4e-b2c0-8825-fd286b77c4a_Untitled2.png)
-\
+
 #### Training and test images:
 A set of 20 training images and a set of 10 test images in .bmp format
 will be provided. The training set contains 10 positive (human) and 10 negative (no human)
